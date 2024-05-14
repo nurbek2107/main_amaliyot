@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <button class="btn show-btn" id="show-btn">
+            Show Modal
+        </button>
+    
+        <!-- MODAL -->
+        <div class="modal hidden" id="modal">
+            <!-- MODAL HEADER -->
+            <div class="modal-header">
+                <h3>I love BMW </h3>
+                <button class="btn close-btn" id="close-btn">
+                    <i class="fas fa-close"></i>
+                </button>
+            </div>
+    
+            <!-- MODAL BODY -->
+            <div class="modal-body">
+                <h2 class="modal-title">Modal Title</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                    voluptate quis quibusdam officiis, ea modi cumque ipsa reiciendis.
+                    Dolore voluptatum officia totam veritatis iste. Ut tempore veniam
+                    aperiam itaque culpa, eius dolores ratione impedit, eum ipsam nemo
+                    quae quis in corporis deserunt totam. Voluptas, magni.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- OVERLAY -->
+    <div class="overlay hidden" id="overlay"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
